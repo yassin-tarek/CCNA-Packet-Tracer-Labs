@@ -5,7 +5,9 @@ Build a simple local area network (LAN) by connecting two PCs to a switch, assig
 
 ## Topology
 
-> Add a screenshot of your Packet Tracer topology here.
+<img width="1106" height="537" alt="image" src="https://github.com/user-attachments/assets/65412615-dca4-44be-a995-cf07adc3f798" />
+
+
 
 ## Devices Used
 
