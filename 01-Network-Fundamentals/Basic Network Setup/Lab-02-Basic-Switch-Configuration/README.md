@@ -42,6 +42,53 @@ Perform the initial configuration of a Cisco switch by setting passwords, changi
 - Cisco IOS CLI navigation
 - Device security basics
 - Saving configurations
+## Configuration
+
+### Hostname
+
+```bash
+hostname S1
+```
+
+### Enable Secret
+
+```bash
+enable secret class
+```
+
+### Console Access
+
+```bash
+line console 0
+password cisco
+login
+```
+
+### VTY Access
+
+```bash
+line vty 0 4
+password cisco
+login
+```
+
+### Password Encryption
+
+```bash
+service password-encryption
+```
+
+### MOTD Banner
+
+```bash
+banner motd # Unauthorized access is prohibited! #
+```
+
+### Save Configuration
+
+```bash
+copy running-config startup-config
+```
 
 ## Files Included
 
